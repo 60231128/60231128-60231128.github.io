@@ -1,4 +1,4 @@
-<html>
+<html style="overflow: hidden">
   <head>
     <!-- JQuery Load -->
     <script
@@ -13,15 +13,20 @@
 
     <!-- script.js Load -->
     <script src="js/script.js"></script>
+
+    <!-- Adobe Fonts 임베드 코드 -->
+    <link rel="stylesheet" href="https://use.typekit.net/keo8upg.css" />
   </head>
   <body>
-    <iframe
-      src="./A_Lovely_Night.mp3"
+    <!-- 음악 -->
+    <audio
+      class="music"
+      src="./Another Day Of Sun.mp3"
       allow="autoplay"
+      autoplay="true"
       id="audio"
-      style="display: none"
-    >
-    </iframe>
+      style="opacity: 1"
+    ></audio>
 
     <div class="container">
       <div class="background">
@@ -30,66 +35,2023 @@
       </div>
 
       <div class="text-container" style="left: -16px">
-        <p class="subheader typewriter">Here's to the fools who dream.</p>
+        <p class="typewriter-text">Here's to the fools who dream.</p>
         <br />
-        <h1 class="typewriter">LaLa Land</h1>
+        <h1 class="typewriter-text">LALA LAND</h1>
         <br />
-        <p class="typewriter">"City of Stars, are you shining just for me?"</p>
+        <p class="typewriter-text">
+          "City of Stars, are you shining just for me?"
+        </p>
         <br />
-        <div class="footer typewriter">- Mia Dolan, from La La Land</div>
+        <p class="typewriter-text">- Mia Dolan, from La La Land</p>
       </div>
 
       <div class="silhouette-container">
         <img
-          src="dancing silhouette1.png"
-          class="dancing-silhouette"
-          alt="실루엣 1"
-        />
-        <img
-          src="dancing silhouette2.png"
+          src="dancing silhouette (2).png"
           class="dancing-silhouette"
           alt="실루엣 2"
         />
         <img
-          src="dancing silhouette3 (2).png"
+          src="dancing silhouette (3).png"
           class="dancing-silhouette"
           alt="실루엣 3"
         />
+        <img
+          src="dancing silhouette (4).png"
+          class="dancing-silhouette"
+          alt="실루엣 4"
+        />
+        <img
+          src="dancing silhouette (5).png"
+          class="dancing-silhouette"
+          alt="실루엣 5"
+        />
+
+        <img
+          src="dancing silhouette (7).png"
+          class="dancing-silhouette"
+          alt="실루엣 7"
+        />
+        <img
+          src="dancing silhouette (8).png"
+          class="dancing-silhouette"
+          alt="실루엣 8"
+        />
+        <img
+          src="dancing silhouette (9).png"
+          class="dancing-silhouette"
+          alt="실루엣 9"
+        />
+        <img
+          src="dancing silhouette (10).png"
+          class="dancing-silhouette"
+          alt="실루엣 10"
+        />
+        <img
+          src="dancing silhouette (11).png"
+          class="dancing-silhouette"
+          alt="실루엣 11"
+        />
+
+        <img
+          src="dancing silhouette (13).png"
+          class="dancing-silhouette"
+          alt="실루엣 13"
+        />
+        <img
+          src="dancing silhouette (14).png"
+          class="dancing-silhouette"
+          alt="실루엣 14"
+        />
+        <img
+          src="dancing silhouette (15).png"
+          class="dancing-silhouette"
+          alt="실루엣 15"
+        />
       </div>
 
+      <!-- 땅 -->
+      <!-- 페이지 바닥에 ground 이미지 추가 -->
+      <img src="ground1.png" alt="땅 이미지" class="ground-image" />
+
+      <!-- 전구 -->
+      <div class="bulb1-container">
+        <!-- 첫 번째 전구 세트 -->
+        <img src="./bulb1.png" alt="전구 세트 1" class="bulb bulb1" />
+      </div>
+
+      <div class="bulb2-container">
+        <!-- 두 번째 전구 세트 -->
+        <img src="./bulb2.png" alt="전구 세트 2" class="bulb bulb2" />
+      </div>
+
+      <!--별자리 -->
+      <!-- 첫 번째 별자리 이미지 (왼쪽에 배치) -->
+      <div class="constellation-container left">
+        <img
+          src="Constellation1.png"
+          class="constellation-image"
+          style="top: 5px; left: 20%"
+        />
+      </div>
+
+      <!-- 두 번째 별자리 이미지 (오른쪽에 배치) -->
+      <div class="constellation-container right">
+        <img
+          src="Constellation2.png"
+          class="constellation-image"
+          style="top: 5px; left: 90%"
+        />
+      </div>
+
+      <!-- 새로운 별자리들 -->
+
+      <!-- 새로운 별자리들 -->
+      <div class="constellation-container third">
+        <img src="Constellation3.png" class="constellation-image" />
+      </div>
+      <div class="constellation-container fourth">
+        <img src="Constellation4.png" class="constellation-image" />
+      </div>
+
+      <!-- 음악 파이프 (saxophone) 이미지 -->
+      <img src="music.png" alt="음악 파이프 이미지" class="saxophone-image" />
+
+      <!-- 음표 이미지 (초기에는 숨김 상태) -->
+      <img src="musical.png" alt="음표 이미지" class="musical-notes" />
+
+      <!-- 건물 뒷배경 -->
+      <!-- 도시 실루엣 -->
+      <img src="city1.png" alt="도시 실루엣 이미지" class="city-image" />
+
+      <!-- 벤치 -->
       <div class="bench-container">
         <img src="./Bench.png" alt="벤치 이미지" class="bench" />
       </div>
-
+      <!-- 고양이  -->
       <div class="cat-container">
         <img src="./cat.png" alt="고양이 이미지" class="cat" />
       </div>
 
-      <div class="streetlamp-container">
-        <img src="./Streetlamp.png" alt="가로등 이미지" class="streetlamp" />
-        <div class="light"></div>
-        <!-- 불빛 효과를 위한 요소 -->
+      <div class="container">
+        <!-- 가로등 컨테이너 -->
+        <div class="streetlamp-container" style="bottom: -2%; left: -10%">
+          <img src="./Streetlamp.png" alt="가로등 이미지" class="streetlamp" />
+          <!-- 가로등에서 나오는 빛 -->
+          <div class="light"></div>
+          <!-- 바닥에 드리워지는 빛 -->
+          <div class="ground-light"></div>
+        </div>
+
+        <div class="streetlamp-container" style="bottom: -2%; left: 10%">
+          <img src="./Streetlamp.png" alt="가로등 이미지" class="streetlamp" />
+          <div class="light"></div>
+          <div class="ground-light"></div>
+        </div>
+
+        <div class="streetlamp-container" style="bottom: -2%; left: 55%">
+          <img src="./Streetlamp.png" alt="가로등 이미지" class="streetlamp" />
+          <div class="light"></div>
+          <div class="ground-light"></div>
+        </div>
+
+        <div class="streetlamp-container" style="bottom: -1%; left: 76%">
+          <img src="./Streetlamp.png" alt="가로등 이미지" class="streetlamp" />
+          <div class="light"></div>
+          <div class="ground-light"></div>
+        </div>
       </div>
 
-      <div class="building-container" style="left: -44px">
+      <!-- 불빛 효과를 위한 요소 -->
+
+      <div class="building-container" style="left: 0px">
         <img
-          src="./Building silhouette.png"
+          src="./Building silhouette1.png"
           alt="건물 실루엣 이미지"
           class="building-silhouette"
         />
       </div>
 
-      <!-- 첫 번째 음표 -->
-      <div class="note1-container">
-        <img src="./Musical note.png" alt="첫 번째 음악 노트" class="note1" />
-      </div>
-
-      <!-- 두 번째 음표 -->
-      <div class="note2-container">
+      <div class="light-overlay">
+        <!-- 왼쪽 창문 -->
+        <!-- 작은 창문 -->
         <img
-          src="./Musical note(2).png"
-          alt="두 번째 음악 노트"
-          class="note2"
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 150px; left: 10px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 138px; left: 10px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 126px; left: 10px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 105px; left: 15px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; left: 15px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 79px; left: 15px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 105px; left: 3px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; left: 3px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 79px; left: 3px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 67px; left: 15px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 67px; left: 3px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 55px; left: 15px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 55px; left: 3px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 43px; left: 15px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 43px; left: 3px"
+        />
+        <!--작은 창문-->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; left: 38px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; left: 48px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; left: 58px"
+        />
+
+        <!--큰 창문-->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 68px; left: 48px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 56px; left: 48px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 44px; left: 48px"
+        />
+        <!--큰 창문-->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 128px; left: 99px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 128px; left: 82px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 114px; left: 99px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 114px; left: 82px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 100px; left: 99px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 100px; left: 82px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 86px; left: 99px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 86px; left: 82px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 72px; left: 99px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 72px; left: 82px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 58px; left: 99px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 58px; left: 82px"
+        />
+        <!--작은 창문-->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 90px; left: 140px"
+        />
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 90px; left: 151px"
+        />
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 80px; left: 140px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 80px; left: 151px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 70px; left: 140px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 70px; left: 151px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 70px; left: 162px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 60px; left: 140px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 60px; left: 151px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 60px; left: 162px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 50px; left: 140px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 50px; left: 151px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 50px; left: 162px"
+        />
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 118px; left: 168.5px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 132px; left: 168.5px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 146px; left: 168.5px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 102px; left: 176px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 90px; left: 176px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 102px; left: 160px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 78px; left: 176px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 78px; left: 192px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 78px; left: 208px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 66px; left: 178px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 66px; left: 194px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 66px; left: 210px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 54px; left: 179px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 54px; left: 195px"
+        />
+
+        <!--작은 창문-->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 90px; left: 229.5px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 78px; left: 229.5px"
+        />
+
+        <!--작은 창문-->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 93px; left: 263px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 93px; left: 251px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 80px; left: 263px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 80px; left: 251px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 67px; left: 263px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 67px; left: 251px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 58px; left: 232px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 58px; left: 251px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 46px; left: 213px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 46px; left: 232px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 46px; left: 251px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 125px; left: 252px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 125px; left: 268px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 110px; left: 288px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 95px; left: 288px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 80px; left: 288px"
+        />
+
+        <!--작은 창문-->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 83px; left: 314px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 83px; left: 323px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 73px; left: 314px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 73px; left: 323px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 50px; left: 300px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 50px; left: 317px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 110px; left: 370px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 110px; left: 350px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 97px; left: 370px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 97px; left: 350px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 84px; left: 370px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 84px; left: 350px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 71px; left: 370px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 58px; left: 350px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 58px; left: 370px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 45px; left: 350px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 45px; left: 370px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 71px; left: 350px"
+        />
+
+        <!--작은 창문-->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 95px; left: 398px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 95px; left: 410px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 95px; left: 422px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 83px; left: 398px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 83px; left: 410px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 83px; left: 422px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 71px; left: 398px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 71px; left: 410px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 71px; left: 422px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 59px; left: 398px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 59px; left: 410px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 59px; left: 422px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 59px; left: 434px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 47px; left: 398px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 47px; left: 410px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 47px; left: 422px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 47px; left: 434px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 47px; left: 446px"
+        />
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 84px; left: 448px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 72px; left: 448px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; left: 487px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; left: 505px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 80px; left: 487px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 80px; left: 505px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 68px; left: 487px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 68px; left: 505px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 68px; left: 523px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 56px; left: 487px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 56px; left: 505px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 56px; left: 523px"
+        />
+
+        <!-- 오른쪽 창문 -->
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 56px; right: 1px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 44px; right: 1px"
+        />
+
+        <!-- 작은 창문 -->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 150px; right: 45px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 150px; right: 32px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 150px; right: 19px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 138px; right: 45px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 138px; right: 32px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 138px; right: 19px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 126px; right: 45px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 126px; right: 32px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 126px; right: 19px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 114px; right: 45px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 114px; right: 32px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 114px; right: 19px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 87px; right: 36px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 75px; right: 36px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 75px; right: 53px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 63px; right: 36px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 63px; right: 53px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 51px; right: 36px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 51px; right: 53px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 110px; right: 76px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 110px; right: 94px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 110px; right: 112px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 110px; right: 130px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 96px; right: 76px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 96px; right: 94px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 96px; right: 112px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 96px; right: 130px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 82px; right: 76px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 82px; right: 94px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 82px; right: 112px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 82px; right: 130px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 70px; right: 94px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 70px; right: 112px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 70px; right: 130px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 91px; right: 150px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 78px; right: 150px"
+        />
+        <!-- 작은 창문 -->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 130px; right: 173px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 118px; right: 173px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 130px; right: 186px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 118px; right: 186px"
+        />
+
+        <!-- 작은 창문 -->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 85px; right: 220px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 85px; right: 232px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 73px; right: 220px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 73px; right: 232px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; right: 257px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; right: 276px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 80px; right: 257px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 80px; right: 276px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 68px; right: 257px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 68px; right: 276px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 56px; right: 257px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 56px; right: 276px"
+        />
+
+        <!-- 작은 창문 -->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 110px; right: 266.5px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 123px; right: 266.5px"
+        />
+
+        <!-- 작은 창문 -->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 120px; right: 310px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 120px; right: 323px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 106px; right: 305px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 106px; right: 317px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 106px; right: 329px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; right: 305px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; right: 317px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 92px; right: 329px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 78px; right: 305px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 78px; right: 317px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 78px; right: 329px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 64px; right: 305px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 64px; right: 317px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 64px; right: 329px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 50px; right: 305px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 50px; right: 317px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 50px; right: 329px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 54px; right: 361px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 54px; right: 374px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 44px; right: 361px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 44px; right: 374px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 85px; right: 357px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 73px; right: 357px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 85px; right: 374px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 73px; right: 374px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 85px; right: 392px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 73px; right: 392px"
+        />
+
+        <!-- 작은 창문 -->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 97px; right: 380px"
+        />
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 97px; right: 392px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 109px; right: 380px"
+        />
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 109px; right: 392px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 121px; right: 392px"
+        />
+
+        <!-- 작은 창문 -->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 97px; right: 412px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 97px; right: 426px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 85px; right: 412px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 85px; right: 426px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 73px; right: 412px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 73px; right: 426px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 61px; right: 412px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 61px; right: 426px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 124px; right: 410px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 124px; right: 427px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 136px; right: 418.5px"
+        />
+
+        <!-- 작은 창문 -->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 61px; right: 438px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 61px; right: 450px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 49px; right: 412px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 49px; right: 426px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 49px; right: 440px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 49px; right: 454px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 49px; right: 468px"
+        />
+
+        <!--큰 창문 -->
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 91px; right: 447px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 79px; right: 447px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 79px; right: 468px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 79px; right: 489px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 67px; right: 468px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 67px; right: 489px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 55px; right: 489px"
+        />
+
+        <img
+          src="./window2.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 81px; right: 507px"
+        />
+
+        <!-- 작은 창문 -->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 93px; right: 495px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 93px; right: 508px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 105px; right: 495px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 105px; right: 508px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 117px; right: 503px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 129px; right: 503px"
+        />
+
+        <!-- 작은 창문 -->
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 87px; right: 528px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 75px; right: 528px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 63px; right: 515px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 63px; right: 527px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 63px; right: 539px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 51px; right: 515px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 51px; right: 527px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 51px; right: 539px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 51px; right: 551px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 39px; right: 515px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 39px; right: 527px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 39px; right: 539px"
+        />
+
+        <img
+          src="./window.png"
+          alt="창문 불빛"
+          class="window blinking"
+          style="bottom: 39px; right: 551px"
         />
       </div>
 
@@ -97,12 +2059,9 @@
     </div>
     <div class="container">
       <div class="sky">
-        <div class="text">#CODEVEMBER</div>
-        <div class="stars"></div>
-        <div class="stars1"></div>
-        <div class="stars2"></div>
         <div class="shooting-stars"></div>
       </div>
     </div>
+    <div class="space"></div>
   </body>
 </html>
